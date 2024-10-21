@@ -1,0 +1,45 @@
+<DOCTYPE hTml>
+<html>
+    <head><title>Practica Formulario</title></head>
+    <body>
+        <form action="mailto:hugo.justiniano@educa.madrid.org">
+            <fieldset>
+                <legend>Personaje</legend>
+                <label for="elección de superheroe">Superheroe favorito</label>
+                <br>
+                <input list="Superhero" name="Superhero">
+                <datalist id="Superhero">
+                <option value="">Elige tu personaje favorito</option>
+                <option value="Red Hood">Red Hood</option>
+                <option value="Nigthwing">Nigthwing</option>
+                <option value="Batman">Batman</option>
+                <option value="Red Robin">Red Robin</option>
+                <option value="Robin">Robin</option>
+                <option value="Batgirl">Batgirl</option>
+                <option value="Flash">Flash</option>
+                <option value="Superman">Superman</option>
+                </datalist>
+                <br>
+                <br>
+                <label for="color">Color</label>
+                <br>
+                <input type="color">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="Nombre">Nombre</label>
+                <br>
+                <input text="Nombre" name="Nombre">
+                <datalist id="Nombre"></datalist>
+                <br>
+                <label for="Teléfono">Teléfono</label>
+                <br>
+                <input type="tel" name="Teléfono">
+               <datalist id="Teléfono"></datalist>
+                <br>
+    
+            </fieldset>
+            <br><button name="Enviar" type="submit">Enviar</button>
+        </form>
+    </body>
+</hTml>
