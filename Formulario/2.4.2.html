@@ -1,0 +1,136 @@
+<DOCTYPE hTml>
+    <html>
+
+    <head>
+        <title>Practica Formulario</title>
+    </head>
+
+    <body>
+        <form action="mailto:hugo.justiniano@educa.madrid.org">
+            <fieldset>
+                <legend>Personaje</legend>
+                <label for="elección de superheroe">Superheroe favorito</label>
+                <br>
+                <input list="Superhero" name="Superhero">
+                <datalist id="Superhero">
+                    <option value="">Elige tu personaje favorito</option>
+                    <option value="Red Hood">Red Hood</option>
+                    <option value="Nigthwing">Nigthwing</option>
+                    <option value="Batman">Batman</option>
+                    <option value="Red Robin">Red Robin</option>
+                    <option value="Robin">Robin</option>
+                    <option value="Batgirl">Batgirl</option>
+                    <option value="Flash">Flash</option>
+                    <option value="Superman">Superman</option>
+                </datalist>
+                <br>
+                <br>
+                <label for="color">Color</label>
+                <br>
+                <input type="color">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="Nombre">Nombre</label>
+                <br>
+                <input text="Nombre" name="Nombre">
+                <datalist id="Nombre"></datalist>
+                <br>
+                <label for="Teléfono">Teléfono</label>
+                <br>
+                <input type="tel" name="Teléfono">
+                <datalist id="Teléfono"></datalist>
+                <br>
+                <br>
+                <label for="Fecha">Fecha</label>
+                <br>
+                <input type="date" name="Fecha">
+                <datalist id="Fecha"></datalist>
+                <br>
+                <br>
+                <label for="Password">Contraseña</label>
+                <br>
+                <input type="password">
+                <datalist id="password"></datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Seleciona la forma de contactarte preferida</legend>
+                <br>
+                <div>
+                    <input type="radio" id="Email" name="drone" value="Email" />
+                    <label for="Email">Email</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="Teléfono" name="drone" value="Teléfono" />
+                    <label for="Teléfono">Teléfono</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="Carta" name="drone" value="Carta" />
+                    <label for="Carta">Carta</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Elige tu asignatura favorita</legend>
+
+                <div>
+                    <input type="checkbox" id="Ap web" name="Ap web" />
+                    <label for="Ap web">Aplicaciones web</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Seg inf" name="Seg inf" />
+                    <label for="Seg inf">Seguridad informática</label>
+                </div>
+            </fieldset>
+            <Fieldset>
+                <legend>Inicie sesión en su cuenta:</legend>
+
+                <div>
+                    <label for="userId">UsUARIO ID</label>
+                    <input type="text" id="userId" name="userId" />
+                </div>
+
+                <input type="image" id="image" alt="Login" src="65be5431a2353.jpeg" style="width: 60;">
+
+            </Fieldset>
+            <br>
+            <fieldset>
+                <legend>Pon el avatar que quieras</legend>
+                <label for="avatar">Choose a profile picture:</label>
+
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Pon un video que te guste</legend>
+                <form>
+                    <label for="url">Pon el
+                        <link rel="stylesheet" href="">
+                    </label>
+                    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*"
+                        size="30" required />
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Busca información</legend>
+                <label for="site-search">Busca por aqui</label>
+                <input type="search" id="site-search" name="q" />
+
+                <button>Buscar</button>
+
+            </fieldset>
+            <fieldset>
+                <legend>Inserta un Email</legend>
+                <label for="email">Pon tu Email</label>
+
+                <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+
+            </fieldset>
+            <br><button name="Enviar" type="submit">Enviar</button>
+            <input type="reset" value="Reset" />
+        </form>
+    </body>
+
+    </hTml>
