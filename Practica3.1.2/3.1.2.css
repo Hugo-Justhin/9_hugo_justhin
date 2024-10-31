@@ -1,0 +1,65 @@
+caption{
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: white;
+    padding: 25px;
+}
+td{
+    border: 5px outset;
+    text-align: center;
+    border-radius: 16%;
+}
+th{
+    border-radius: 15%;
+    padding: 10px;
+    background-color:darkcyan;
+}
+td:nth-child(1){
+    background-color: cyan;
+}
+td:nth-child(1):hover{
+    background-color: white;
+}
+th:nth-child(1){
+    background-color: white;
+    border: 0;
+}
+.Seginf{
+    background-color: pink;
+}
+.Serred{
+    background-color: crimson;
+}
+.ingles{
+    background-color: brown;
+}
+.empresa{
+    background-color: blanchedalmond;
+}
+.sor{
+    background-color: greenyellow ;
+}
+.apweb{
+    background-color: chocolate;
+}
+.tutoria{
+background-color: aquamarine;
+}
+.recreo{
+    background-color: yellow;
+}
+.recreo:hover{
+    background-color: white;
+}
+.vacio{
+    background-color: white;
+    border: 0px;
+}
+#aula{
+    visibility: hidden;
+    display: block;
+}
+
+td.serred:hover #aula{
+    visibility: visible;
+}
