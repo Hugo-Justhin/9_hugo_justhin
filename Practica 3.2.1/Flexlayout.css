@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    /* or inline-flex */
+    background-color: blueviolet;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.caja {
+    width: 60;
+    border-radius: 15%;
+    background-color: orange;
+    padding: 5px;
+    margin: 6px;
+
+}
+
+.container2 {
+    display: flex;
+    /* or inline-flex */
+    margin: 5px;
+    gap: 10px;
+    flex-direction: column-reverse;
+    background-color: black;
+    width: 80px;
+}
+
+#nav {
+    background-color: white;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#nav ul li {
+    background-color:brown;
+    padding: 10px 15px;
+    border: 5px solid rgb(31, 29, 29);
+}
+
+#nav ul li:hover {
+    background-color: brown ;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}

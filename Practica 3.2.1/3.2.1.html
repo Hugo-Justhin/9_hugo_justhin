@@ -1,0 +1,86 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Practica 3.2.1</title>
+        <link rel="stylesheet" href="Flexlayout.css">
+        <style>
+            .container {
+                display: flex;
+                /* or inline-flex */
+                background-color: blueviolet;
+                justify-content: flex-end;
+                gap: 10px;
+            }
+
+            .caja {
+                width: 60;
+                border-radius: 15%;
+                background-color: orange;
+                padding: 5px;
+                margin: 6px;
+
+            }
+
+            .container2 {
+                display: flex;
+                /* or inline-flex */
+                margin: 5px;
+                gap: 10px;
+                flex-direction: column-reverse;
+                background-color: black;
+                width: 80px;
+            }
+
+            #nav {
+                background-color: white;
+            }
+
+            #nav ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+            }
+
+            #nav ul li {
+                background-color: brown;
+                padding: 10px 15px;
+                border: 5px solid rgb(31, 29, 29);
+            }
+
+            #nav ul li:hover {
+                background-color: brown;
+            }
+
+            #nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="caja">Botón 1</div>
+            <div class="caja">Botón 2</div>
+            <div class="caja">Botón 3</div>
+            <div class="caja">Botón 4</div>
+        </div>
+        <div class="container2">
+            <div class="caja">Botón 1</div>
+            <div class="caja">Botón 2</div>
+            <div class="caja">Botón 3</div>
+            <div class="caja">Botón 4</div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </body>
+
+    </html>
