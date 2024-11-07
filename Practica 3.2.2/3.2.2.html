@@ -1,0 +1,54 @@
+<doctype html>
+    <html>
+
+    <head>
+        <title>Practica 3.2.2</title>
+        <link rel="stylesheet" href="3.2.2.css">
+        <style>
+            .container {
+                display: grid;
+                grid-template-rows: 20% 65% 15%;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-areas:
+                    "header header header header"
+                    "main main . aside"
+                    "footer footer footer footer";
+                height: 100vh;
+            }
+            header{
+                grid-area: header;
+                background-color: burlywood;
+            }
+            main{
+                grid-area: main;
+                background-color: blueviolet;
+            }
+            aside{
+                grid-area: aside;
+                background-color: aqua;
+            }
+            footer{
+                grid-area: footer;
+                background-color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>HEADER</h1>
+            </header>
+            <main>
+                <h1>MAIN</h1>
+            </main>
+            <aside>
+                <h1>ASIDE</h1>
+            </aside>
+            <footer>
+                <h1>FOOTER</h1>
+            </footer>
+        </div>
+    </body>
+
+    </html>
