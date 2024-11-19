@@ -97,3 +97,7 @@ b{
 #nav {
     background-color: rgb(211,107,64);
 }
+
+#contacto{
+    min-height: 400px;
+}
