@@ -1,0 +1,99 @@
+header {
+    padding: 2em;
+    text-align: center;
+    background-size: cover;
+    background-image: url(majestuoso-pico-montana-tranquilo-paisaje-invernal-generado-ia_188544-15662.avif);
+    text-shadow: 10px;
+
+}
+
+img {
+    border-radius: 100px;
+    max-width: 150px;
+}
+
+body {
+    margin: 0%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    color: rgb(240, 229, 229);
+}
+
+h3 {
+    color: rgb(15, 73, 87);
+}
+
+h4 {
+    color: rgb(55, 155, 156);
+}
+
+section {
+    margin-left: 15px;
+}
+
+.knowledge {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer{
+    background-color: rgb(211,107,64);
+    min-height: 150px;
+    text-align: end;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+#skills .knowledge ul{
+    list-style: none;
+}
+
+#skills .knowledge ul > li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #509e98;
+}
+
+.languages ul > li::before{
+    visibility: hidden;
+}
+
+b{
+    color:darkturquoise;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    background-color:brown;
+    padding: 10px 15px; 
+    border-radius: 12px;
+}
+
+#nav ul li:hover{
+    background-color: pink;
+}
+
+#jobs ul > li::before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #509e98;
+}
+
+#jobs ul{
+    list-style: none;
+}
+
+#nav {
+    background-color: rgb(211,107,64);
+}
