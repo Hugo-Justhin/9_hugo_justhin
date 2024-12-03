@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #resultado{
+                height: 150px;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>Nota primera evaluaci&oacute;n</label>
+            <input type="number" max="10" id="nota_primera_ev">
+            <label>Nota segunda evaluaci&oacute;n</label>
+            <input type="number" max="10" id="nota_segunda_ev">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Nombre...">
+        </form>
+        <button type="button" name="calcular" onclick="calcularNotaFinal()">Calcular nota</button>
+        <div id="resultado">
+        </div>
+        <script src="aprobado.js"></script>
+    </body>
+</html>
